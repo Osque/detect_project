@@ -27,3 +27,8 @@ group :development, :test do
   gem 'spring-watcher-listen', '~> 2.0.0'
   gem 'dotenv-rails'
 end
+
+group :production do
+  gem 'pg', '~> 0.21'
+  gem 'rails', '5.2.2.1'
+end
